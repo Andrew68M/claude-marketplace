@@ -1,0 +1,9 @@
+{
+  "name": "graphify",
+  "version": "8.0.0-andrew",
+  "description": "Turns any folder (code, docs, papers, images) into a queryable knowledge graph. Skill vendored from Andrew68M/graphify (branch v8). Requires the graphify CLI: uv tool install graphifyy",
+  "author": { "name": "graphify authors" },
+  "homepage": "https://github.com/Andrew68M/graphify",
+  "license": "Apache-2.0",
+  "skills": "./skills"
+}

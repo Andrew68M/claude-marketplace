@@ -1,0 +1,74 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "andrew68m-plugins",
+  "description": "Andrew's personal collection of skills and plugins, all from his GitHub forks",
+  "owner": {
+    "name": "Andrew68M",
+    "url": "https://github.com/Andrew68M"
+  },
+  "plugins": [
+    {
+      "name": "unslop",
+      "description": "Turns vibecoded, AI-looking UI into a designed interface with its own character. By Damir Sokolovsky (@heydamir), CC BY 4.0",
+      "source": { "source": "github", "repo": "Andrew68M/unslop" },
+      "strict": false,
+      "skills": ["./skills/unslop"],
+      "license": "CC-BY-4.0",
+      "homepage": "https://github.com/Andrew68M/unslop",
+      "category": "design"
+    },
+    {
+      "name": "agent-skills",
+      "description": "Production-grade engineering skills by Addy Osmani: spec, plan, build, verify, review and ship",
+      "source": { "source": "github", "repo": "Andrew68M/agent-skills" },
+      "homepage": "https://github.com/Andrew68M/agent-skills",
+      "category": "development"
+    },
+    {
+      "name": "ponytail",
+      "description": "Lazy senior dev mode: the simplest, shortest solution that works. YAGNI, stdlib first",
+      "source": { "source": "github", "repo": "Andrew68M/ponytail" },
+      "homepage": "https://github.com/Andrew68M/ponytail",
+      "category": "productivity"
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "description": "Behavioral guidelines that reduce common LLM coding mistakes, after Andrej Karpathy",
+      "source": { "source": "github", "repo": "Andrew68M/karpathy-skills" },
+      "homepage": "https://github.com/Andrew68M/karpathy-skills",
+      "category": "workflow"
+    },
+    {
+      "name": "prompts.chat",
+      "description": "Search thousands of prompts and skills from prompts.chat, with commands, agents and an MCP server",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Andrew68M/prompts.chat.git",
+        "path": "plugins/claude/prompts.chat"
+      },
+      "homepage": "https://github.com/Andrew68M/prompts.chat",
+      "category": "ai"
+    },
+    {
+      "name": "omniroute-skills",
+      "description": "Skills for operating the OmniRoute AI gateway and its CLI (needs OmniRoute installed and running)",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Andrew68M/OmniRoute.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": "./",
+      "homepage": "https://github.com/Andrew68M/OmniRoute",
+      "category": "development",
+      "defaultEnabled": true
+    },
+    {
+      "name": "graphify",
+      "description": "Turns any folder into a queryable knowledge graph. Needs the graphify CLI: uv tool install graphifyy",
+      "source": "./plugins/graphify",
+      "homepage": "https://github.com/Andrew68M/graphify",
+      "category": "development"
+    }
+  ]
+}
