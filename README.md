@@ -23,7 +23,7 @@ claude plugin install unslop@andrew68m-plugins
 | `agent-skills` | [Andrew68M/agent-skills](https://github.com/Andrew68M/agent-skills) | 34 inžinierskych skillov a 4 agenti (spec → ship) od Addyho Osmaniho | |
 | `ponytail` | [Andrew68M/ponytail](https://github.com/Andrew68M/ponytail) | Režim „lenivý senior dev“: najjednoduchšie riešenie, ktoré funguje | Má hooky, nastavenie cez `/plugin configure` |
 | `andrej-karpathy-skills` | [Andrew68M/karpathy-skills](https://github.com/Andrew68M/karpathy-skills) | Pravidlá proti typickým chybám LLM pri kódovaní | |
-| `prompts.chat` | [Andrew68M/prompts.chat](https://github.com/Andrew68M/prompts.chat) | Hľadanie promptov a skillov z prompts.chat | Pripája MCP server `https://prompts.chat/api/mcp` |
+| `prompts-chat` | [Andrew68M/prompts.chat](https://github.com/Andrew68M/prompts.chat) | Hľadanie promptov a skillov z prompts.chat | Pripája MCP server `https://prompts.chat/api/mcp`. Skopírovaný v `plugins/prompts-chat/` (pôvodný názov s bodkou aplikácia neprijímala) |
 | `omniroute-skills` | [Andrew68M/OmniRoute](https://github.com/Andrew68M/OmniRoute) | 46 skillov na ovládanie AI gateway OmniRoute | Užitočné iba vtedy, keď máš OmniRoute nainštalovaný |
 | `graphify` | [Andrew68M/graphify](https://github.com/Andrew68M/graphify) (vetva `v8`) | Urobí z priečinka znalostný graf | Potrebuje CLI: `uv tool install graphifyy` |
 
@@ -31,7 +31,7 @@ claude plugin install unslop@andrew68m-plugins
 
 Šesť pluginov sa sťahuje priamo z mojich forkov. Keď fork synchronizujem s originálom (na GitHube cez „Sync fork“) a v Claude dám Update, dostanem novú verziu.
 
-`graphify` je výnimka. Jeho skill je skopírovaný v `plugins/graphify/`, lebo v repozitári nie je uložený vo formáte, ktorý by Claude vedel načítať priamo. Pri aktualizácii treba skopírovať `graphify/skill.md` → `plugins/graphify/skills/graphify/SKILL.md` a `graphify/skills/claude/references/` → `plugins/graphify/skills/graphify/references/`.
+`graphify` a `prompts-chat` sú výnimky a sú skopírované priamo v tomto repozitári. Skill graphify je skopírovaný v `plugins/graphify/`, lebo v repozitári nie je uložený vo formáte, ktorý by Claude vedel načítať priamo. Pri aktualizácii treba skopírovať `graphify/skill.md` → `plugins/graphify/skills/graphify/SKILL.md` a `graphify/skills/claude/references/` → `plugins/graphify/skills/graphify/references/`.
 
 ## Pridanie ďalšieho pluginu
 

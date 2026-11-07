@@ -10,9 +10,14 @@
     {
       "name": "unslop",
       "description": "Turns vibecoded, AI-looking UI into a designed interface with its own character. By Damir Sokolovsky (@heydamir), CC BY 4.0",
-      "source": { "source": "github", "repo": "Andrew68M/unslop" },
+      "source": {
+        "source": "github",
+        "repo": "Andrew68M/unslop"
+      },
       "strict": false,
-      "skills": ["./skills/unslop"],
+      "skills": [
+        "./skills/unslop"
+      ],
       "license": "CC-BY-4.0",
       "homepage": "https://github.com/Andrew68M/unslop",
       "category": "design"
@@ -20,32 +25,37 @@
     {
       "name": "agent-skills",
       "description": "Production-grade engineering skills by Addy Osmani: spec, plan, build, verify, review and ship",
-      "source": { "source": "github", "repo": "Andrew68M/agent-skills" },
+      "source": {
+        "source": "github",
+        "repo": "Andrew68M/agent-skills"
+      },
       "homepage": "https://github.com/Andrew68M/agent-skills",
       "category": "development"
     },
     {
       "name": "ponytail",
       "description": "Lazy senior dev mode: the simplest, shortest solution that works. YAGNI, stdlib first",
-      "source": { "source": "github", "repo": "Andrew68M/ponytail" },
+      "source": {
+        "source": "github",
+        "repo": "Andrew68M/ponytail"
+      },
       "homepage": "https://github.com/Andrew68M/ponytail",
       "category": "productivity"
     },
     {
       "name": "andrej-karpathy-skills",
       "description": "Behavioral guidelines that reduce common LLM coding mistakes, after Andrej Karpathy",
-      "source": { "source": "github", "repo": "Andrew68M/karpathy-skills" },
+      "source": {
+        "source": "github",
+        "repo": "Andrew68M/karpathy-skills"
+      },
       "homepage": "https://github.com/Andrew68M/karpathy-skills",
       "category": "workflow"
     },
     {
-      "name": "prompts.chat",
+      "name": "prompts-chat",
       "description": "Search thousands of prompts and skills from prompts.chat, with commands, agents and an MCP server",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/Andrew68M/prompts.chat.git",
-        "path": "plugins/claude/prompts.chat"
-      },
+      "source": "./plugins/prompts-chat",
       "homepage": "https://github.com/Andrew68M/prompts.chat",
       "category": "ai"
     },
