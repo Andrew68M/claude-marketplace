@@ -22,6 +22,7 @@ claude plugin install unslop@andrew68m-plugins
 | `unslop` | [Andrew68M/unslop](https://github.com/Andrew68M/unslop) | Prerobí UI, ktoré vyzerá ako od AI, na navrhnuté rozhranie | Snapshot a video potrebujú Playwright (a ffmpeg) |
 | `agent-skills` | [Andrew68M/agent-skills](https://github.com/Andrew68M/agent-skills) | 34 inžinierskych skillov a 4 agenti (spec → ship) od Addyho Osmaniho | |
 | `ponytail` | [Andrew68M/ponytail](https://github.com/Andrew68M/ponytail) | Režim „lenivý senior dev“: najjednoduchšie riešenie, ktoré funguje | Má hooky, nastavenie cez `/plugin configure` |
+| `andrej-karpathy-skills` | [Andrew68M/karpathy-skills](https://github.com/Andrew68M/karpathy-skills) | Pravidlá proti typickým chybám LLM pri kódovaní | |
 | `prompts-chat` | [Andrew68M/prompts.chat](https://github.com/Andrew68M/prompts.chat) | Hľadanie promptov a skillov z prompts.chat | Pripája MCP server `https://prompts.chat/api/mcp`. Skopírovaný v `plugins/prompts-chat/` (pôvodný názov s bodkou aplikácia neprijímala) |
 | `omniroute-skills` | [Andrew68M/OmniRoute](https://github.com/Andrew68M/OmniRoute) | 45 skillov na ovládanie AI gateway OmniRoute (bez duplicitného ponytail) | Užitočné iba vtedy, keď máš OmniRoute nainštalovaný |
 | `graphify` | [Andrew68M/graphify](https://github.com/Andrew68M/graphify) (vetva `v8`) | Urobí z priečinka znalostný graf | Potrebuje CLI: `uv tool install graphifyy` |

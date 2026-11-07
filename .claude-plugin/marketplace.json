@@ -43,6 +43,16 @@
       "category": "productivity"
     },
     {
+      "name": "andrej-karpathy-skills",
+      "description": "Behavioral guidelines that reduce common LLM coding mistakes, after Andrej Karpathy",
+      "source": {
+        "source": "github",
+        "repo": "Andrew68M/karpathy-skills"
+      },
+      "homepage": "https://github.com/Andrew68M/karpathy-skills",
+      "category": "workflow"
+    },
+    {
       "name": "prompts-chat",
       "description": "Search thousands of prompts and skills from prompts.chat, with commands, agents and an MCP server",
       "source": "./plugins/prompts-chat",
